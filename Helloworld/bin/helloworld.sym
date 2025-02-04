@@ -1,0 +1,3 @@
+.label loop=$c002
+.label htext=$c00f
+.label done=$c00e

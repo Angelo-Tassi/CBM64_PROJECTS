@@ -1,17 +1,13 @@
 Output dir: C:\cmb64\CBM64_PROJECTS\Helloworld\bin
 parsing
-Got 3 errors and 0 warnings while executing:
-  (C:\cmb64\CBM64_PROJECTS\Helloworld\helloworld.asm 11:1) Error: Invalid directive
-  (C:\cmb64\CBM64_PROJECTS\Helloworld\helloworld.asm 4:21) Error: Unknown symbol 'htext'
-  (C:\cmb64\CBM64_PROJECTS\Helloworld\helloworld.asm 9:17) Error: Pseudo command 'RTS' not defined
+flex pass 1
+flex pass 2
+Output pass
+Writing prg file: helloworld.prg
 
-                jmp loop
-done:           RTS
+Memory Map
+----------
+Default-segment:
+  $c000-$c01a Unnamed
 
-.htext:         .text "HELLO WORLD"
-^
-
-Error: Invalid directive
-at line 11, column 1 in helloworld.asm
-
-
+Writing Symbol file: helloworld.sym
