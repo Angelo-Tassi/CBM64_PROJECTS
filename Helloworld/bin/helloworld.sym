@@ -1,3 +1,4 @@
-.label loop=$c002
-.label htext=$c00f
-.label done=$c00e
+.label loop=$810
+.label start=$80e
+.label htext=$81d
+.label done=$81c

@@ -2,12 +2,14 @@ Output dir: C:\cmb64\CBM64_PROJECTS\Helloworld\bin
 parsing
 flex pass 1
 flex pass 2
+flex pass 3
 Output pass
 Writing prg file: helloworld.prg
 
 Memory Map
 ----------
 Default-segment:
-  $c000-$c01a Unnamed
+  $0801-$080c Basic
+  $080e-$0828 Basic End
 
 Writing Symbol file: helloworld.sym
